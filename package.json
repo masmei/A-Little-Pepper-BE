@@ -1,0 +1,27 @@
+{
+  "name": "group-4-capstone-back-end",
+  "version": "1.0.0",
+  "description": "back-end",
+  "main": "server.js",
+  "scripts": {
+    "start": "cd a-little-pepper-back-end && npm i && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khaleed-Uddin/Group-4-Capstone-Back-End.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khaleed-Uddin/Group-4-Capstone-Back-End/issues"
+  },
+  "homepage": "https://github.com/Khaleed-Uddin/Group-4-Capstone-Back-End#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "pg-promise": "^10.15.4"
+  }
+}
